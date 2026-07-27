@@ -4,8 +4,8 @@ This is a starter project for you to use to start your Python database projects.
 
 There are two videos to support:
 
-* [A demonstration of setting up the project](https://www.youtube.com/watch?v=KMEt4GgWJXc)
-* [A walkthrough of the project codebase](https://youtu.be/KMEt4GgWJXc?t=460)
+* [A demonstration of setting up the project](https://youtu.be/bP3lX3OCutU)
+* A walkthrough of the project codebase (_video to follow_)
 
 ## Setup
 
