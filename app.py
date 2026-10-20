@@ -1,5 +1,6 @@
 from lib.database_connection import DatabaseConnection
 from lib.artist_repository import ArtistRepository
+from lib.pokemon_repository import PokemonRepository
 
 
 # Connect to the database
@@ -16,3 +17,14 @@ artists = artist_repository.all()
 # List them out
 for artist in artists:
     print(artist)
+print('surely this works')
+
+
+connection.seed("seeds/pokemons_seed.sql")
+
+poke_repo = PokemonRepository(connection)
+
+pokemons = poke_repo.all()
+
+for poke in pokemons:
+    print(poke)
